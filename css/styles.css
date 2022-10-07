@@ -1,0 +1,16 @@
+* {
+    font-family: 'Calibri';
+}
+
+table, tr, td {
+    border: 2px solid #000;
+}
+
+td {
+    text-align: center;
+}
+
+/* every 4th row */
+tr:nth-child(4n) {
+    background-color: blue;
+}
